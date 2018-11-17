@@ -117,7 +117,7 @@ functions:
           method: delete
           cors: true
           authorizer: aws_iam
-  # billing provier - stripe.com
+    # billing provier - stripe.com
   billing:
     handler: billing.main
     events:
