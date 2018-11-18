@@ -19,9 +19,9 @@ test('Middle tier', () => {
 })
 
 test('Highest tier', () => {
-  const storage = 100
+  const storage = 106
 
-  const cost = 10000
+  const cost = 10600
   const expectedCost = calculateCost(storage)
 
   expect(cost).toEqual(expectedCost)
