@@ -47,6 +47,9 @@ Session.vim
 # env
 env.yml
 .env
+env.examples
+package-lock.json
 
 # Jetbrains IDEs
 .idea
+
